@@ -31,11 +31,25 @@ KyrieBasso = {
 }
 
 KyrieBassoLyrics = \lyricmode {
-  % Ky -- ri -- e e -- lei -- son,
-  % Ky -- ri -- e e -- lei -- son,
-  % Ky -- ri -- e e -- lei -- son,
-  % Ky -- ri -- e e -- lei -- son,
-  % Ky -- ri -- e e -- lei -- son,
-  % Ky -- ri -- e e -- lei -- son,
-  % Ky -- ri -- e e -- lei -- son,
+  Ky -- ri -- e
+
+  e -- lei -- son, e -- %4
+  lei -- son, e -- lei -- son, Ky -- ri -- %5
+  e e -- lei -- son.
+  Ky -- ri -- e
+
+  e -- lei -- son, e -- lei -- %10
+  son, e -- lei --
+  son, e -- lei --
+  son. Ky -- ri --
+  e e -- lei -- son, e -- lei --
+  son, e -- lei -- son, %15
+  e -- lei -- son, e --
+  lei -- son, e -- lei -- son, e --
+  lei -- son, e -- lei -- son, Ky -- ri --
+  e e -- lei -- son,
+  %20
+  e -- lei --
+  son. %22 finis
+}
 }
