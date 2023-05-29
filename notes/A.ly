@@ -255,3 +255,169 @@ GloriaAltoLyrics = \lyricmode {
   _
   men. %134 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    R1
+    r2 \mvTr f~\fE^\tutti
+    f4 e r f
+    g8 g g g g4 g
+    r8 \mvTr g\pE^\solo a g a16([ h c8]) h4~ %5
+    h8 a g([ fis)] g4 r
+    \mvTr a4.\fE^\tuttiE a8 a8. a16 g4
+    e4. e8 f4 f8 f
+    g4. a8 g4. g8
+    g4 r r2 %10
+    r4 \mvTr a8\pE^\soloE a16 a a4 gis
+    a8 a a gis a4 r
+    R1*8 %20
+    \mvTr g8.\fE^\tutti g16 g8 g g2
+    g4 r r e8 f
+    d e e e e e r4
+    R1
+    r8 \mvTr a\pE^\solo g f e g f8. f16 %25
+    d8^\critnote r r4 r8 \mvTr g\fE^\tutti a g
+    f4 g8 g f e d4
+    d c r8 f([ g a]) \noBreak
+    g2 g\fermata \bar "||"
+    \key f \major \tempoEtIncarnatus
+      r8 \mvTr f\pE^\solo a f d4. g8 \noBreak %30
+    e c d e16 e f2~
+    f4 e f r
+    f4. b8 e,4. a8
+    d,4. d8 cis e a g
+    f([ e)] d4 r8 b' a b %35
+    e,4. e8 d4 r
+    R1*6 \noBreak %42
+    R1\fermata \bar "||"
+    \key c \major \tempoEtResurrexit
+      r8 \mvTr g\fE^\tutti g g g g g g16 g \noBreak
+    g8 g e4 a g8 g %45
+    g4( fis) g g8 g
+    g g r g g g g g
+    g2 a4 r8 a
+    g g16 g g4 g r
+    R1*11 %60
+    r4 \mvTr g8\fE^\tuttiE g a a a4
+    g8 g g e e e a4
+    g g8 g g8. g16 a4
+    g8 g g4 g r
+    r8 \mvTr g\pE^\solo a g \appoggiatura g4 f2 %65
+    e4 r r8 g a g
+    f4. f8 e4 r
+    r8 a fis d h8. h16 g'8 g
+    g([ fis16 e] fis8.) fis16 g4 r
+    R1*4 %73
+    r2 \mvTr e8\fE^\tutti f^\critnote g4
+    f a8 a g g f([ e)] %75
+    d4 g8 g a2~ \noBreak
+    a g\fermata \bar "||"
+    \tempoEtVitam R1*4 %81
+    r4 g^\critnote a8([ f)] d c
+    h4 c d4. d8
+    c2 r4 c'~
+    c8[ h16 a] h8 g g[ fis16 e] fis4 %85
+    g8[ a] h4 a4. h16[ a]
+    g4. a16[ g] f!8[ e d f]
+    e4 a8[ g] f[ d g f]
+    e[ d] c4 h4.( a16[ h)]
+    c2 r %90
+    R1
+    r4 a' b8([ g)] e d
+    cis4 d e4. e8
+    d4 f2 e4
+    f8([ g)] a4 d,4. e16[ f] %95
+    g8[ f16 e] f8[ g16 a] b8[ g c b]
+    a[ g] f4 f4. e16[ f]
+    g4. f16[ e] f4. e8
+    d2 r
+    r4 g a8([ f)] d a' %100
+    g d g8. f16 e4 e8([ f)]
+    g([ e)] d h c4 f
+    d8. d16 d4 e4. a8
+    g1
+    g4 f8 g g4( f) %105
+    e1\fermata \bar "|." %106 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- %2
+  trem, Pa --
+  trem o -- mni -- po -- ten -- tem,
+  fa -- cto -- rem coe -- li __ %5
+  et ter -- rae,
+  vi -- si -- bi -- li -- um
+  o -- mni -- um et in --
+  vi -- si -- bi -- li --
+  um. %10
+  Fi -- li -- um De -- i
+  u -- ni -- ge -- ni -- tum.
+
+  Ge -- ni -- tum non fa -- %21
+  ctum, con -- sub --
+  stan -- ti -- a -- lem Pa -- tri.
+
+  Qui pro -- pter nos, nos ho -- mi -- %25
+  nes et pro -- pter
+  no -- stram sa -- lu -- tem de --
+  scen -- dit de __
+  coe -- lis.
+  Et in -- car -- na -- tus %30
+  est de Spi -- ri -- tu San --
+  _ cto
+  ex Ma -- ri -- a
+  Vir -- gi -- ne, et ho -- mo
+  fa -- ctus, et ho -- mo %35
+  fa -- ctus est.
+
+  Et re -- sur -- re -- xit ter -- ti -- a %44
+  di -- e se -- cun -- dum Scri -- %45
+  ptu -- ras, et a --
+  scen -- dit in coe -- lum, se -- det,
+  se -- det ad
+  dex -- te -- ram Pa -- tris.
+
+  Si -- mul ad -- o -- ra -- %61
+  tur et con -- glo -- ri -- fi -- ca --
+  tur: qui lo -- cu -- tus est
+  per Pro -- phe -- tas.
+  Et u -- nam san -- %65
+  ctam, san -- ctam ca --
+  tho -- li -- cam
+  et a -- po -- sto -- li -- cam Ec --
+  cle -- si -- am.
+
+  Et ex -- pe -- %74
+  cto re -- sur -- re -- cti -- o -- %75
+  nem mor -- tu -- o --
+  rum,
+
+  et vi -- tam ven -- %82
+  tu -- ri sae -- cu --
+  li, a --
+  _ men, a -- _ %85
+  _ _ _ _
+  _ _ _
+  men, a -- _
+  _ men, a --
+  men, %90
+
+  et vi -- tam ven --
+  tu -- ri sae -- cu --
+  li, a -- men,
+  a -- men, a -- _ %95
+  _ _ _
+  _ men, a -- _
+  _ _ _ _
+  men,
+  et vi -- tam ven -- %100
+  tu -- ri sae -- cu -- li, et __
+  vi -- tam ven -- tu -- ri
+  sae -- cu -- li, a -- men,
+  a --
+  men, a -- men, a -- %105
+  men. %106 finis
+}

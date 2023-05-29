@@ -90,3 +90,57 @@ GloriaClarinoII = {
     \mvTrr g\breve*1/2\fermata_\critnote \bar "|." %134 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    R1*2
+    r2 r4 r8 c'\fE
+    d d c c c4 g
+    R1*4 %8
+    c8\fE c c f16 e d4. d8
+    e4 r r2 %10
+    R1*10 %20
+    d8\fE d d d d4. d8
+    e4 r r2
+    R1*3 %25
+    r8 c\fE c c c2
+    c8 b b b a g g4
+    g e8 g c2 \noBreak
+    r4 g_\critnote c2\fermata \bar "||"
+    \tempoEtIncarnatus R1*13 \noBreak %42
+    R1\fermata \bar "||"
+    \tempoEtResurrexit r8 e16\fE f e f e f-\critnote e8 e16 f e f e f \noBreak
+    d8 d r4 r2 %45
+    r r8 d d d
+    e d d d e d d d
+    e16 f e f e8 e16 d c4 r8 f16 e
+    d8 c g16 e c g' c,4 r
+    R1*11 %60
+    R1
+    r4 c'8\fE c c4 d8 d
+    g,4 d'8 d e8. e16 f4
+    d8 c d c16 d c4 r
+    R1*10 %74
+    r4 d8\fE d d c d c %75
+    g4 r r2 \noBreak
+    R1\fermata \bar "||"
+    \tempoEtVitam R1*8 %85
+    r4 d' c d8 d
+    d g, c4 r2
+    r4 c d4. c16 d
+    c4 r r2
+    R1*7 %96
+    r4 c2 d4
+    d c r8 c f e
+    d4. g,8 c4 r
+    r c2 d4 %100
+    g, d'4. g,8 c4
+    r8 c, g'4 r2
+    g4_\critnote d' c c
+    g2 g4. g8
+    c4 c8 c c,4 c'8 d %105
+    e1\fermata \bar "|." %106 finis
+  }
+}

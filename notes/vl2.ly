@@ -194,3 +194,108 @@ GloriaViolinoII = {
     c\breve*1/2\fermata \bar "|." %134 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    r2 d'~\fE
+    d4 c a2
+    g4 b2 a4
+    r8 h c c c4 h
+    R1 %5
+    g,8\pE c d d g,4 r
+    R1
+    c'4.\fE c8 c4 h
+    c2. h4
+    c r r2 %10
+    R1*2
+    r8 f16\pE e d c h a d,4 r
+    g16( f) e8 c'16( h) a8 c c d d
+    h4 r8 h c4 r8 e %15
+    dis e4 dis8 e g,16 fis? e8 dis
+    e4 r8 g16 h e,4 r8 c'16 e
+    a,4 r8 fis'16 a d,4 r8 h16 d
+    g,4 r8 g16 c a4 r
+    r8 e d a h h'16\fE a g8 fis %20
+    g4 r8 h16 d g,4 r8 h16 d^\critnote
+    e4. f4 d8 e d16 c
+    d4. c8 h4 gis8\pE e-\critnote
+    a, a a f' e d e e
+    a,4 r r2 %25
+    r8 c'16\fE c c8 c \once \tieDashed c2~
+    c8 b b c a g f4~
+    f e8 g c2~ \noBreak
+    c4 h c2\fermata \bar "||"
+    \key f \major \tempoEtIncarnatus a8\pE r a r b r r4 \noBreak %30
+    g8 r c, r a r r4
+    r2 r8 a' d, e
+    f r d' r e r r4
+    f8 r d r e r r4
+    a,8 r a r b r r4 %35
+    r2 r8 f g,-\critnote a
+    d f b b g g f f
+    f f e e e e d f-\critnote
+    d b' f f f e16 d e4
+    f r es'8^\critnote es es es %40
+    d d e e e c a d,
+    h h h h a c' d, e \noBreak
+    a e a,4 r2\fermata \bar "||"
+    \key c \major \tempoEtResurrexit
+      r8 c'\fE c h c c c d16 e \noBreak
+    d4 c2 h8 h %45
+    c2 h4 h16 c d8
+    e d h16 c d8 e d d16 c d8
+    e g g g f c f4
+    f8^\critnote e d4 c16 g e c g8 h'
+    c4 r r2 %50
+    r r16 e c a e8 gis'
+    a,4 r r2
+    R1
+    r16 h g! e h8 dis' e,4 r
+    R1 %55
+    r16 e' c a e8 gis' a,4 r16 e'\p c a
+    f'4 r16 d h g e'4 r16 c a f
+    d'4 r16 b g e cis'4 r16 a f d
+    b'4 r16 g e c a'8 b c b16 a
+    a8 g r4 r2 %60
+    r4 r16 g\fE e c a'4 r16 a f d
+    h'4 r16 h g e c'4 r16 c a f
+    d4 d'8 d e4 r16 f c a
+    h8 c4 h8 c16 g' e c g,8 h'
+    c,4 r r2 %65
+    r16 g' e c g8 h' c4 r
+    R1*2
+    r2 r16 d h g d8 fis'
+    g,,4 r r2 %70
+    R1*3
+    r16 e'' c a e8 gis' a,-\critnote b8 b4
+    a16 f a c f8 f f e^\critnote d c %75
+    h!4 g8 g-\critnote a a a a \noBreak
+    a a a a d,2\fermata \bar "||"
+    \tempoEtVitam R1*6 %83
+    r4 c' e8 c a g
+    fis4 g a4. a8 %85
+    g2 r4 f'!~
+    f8 e16 d e8 c4 h16 a h4
+    c4. h16 c d2
+    c4 a2 gis4
+    a2 r4 d~ %90
+    d8 c16 h c8 a a g!16 f g4~
+    g8 f16 e f4 g2
+    a4. g16 f g8 e a g
+    f e d4 r2
+    r4 c' d8 b g f %95
+    e4 f g4. g8
+    f2 c'8 a \once \tieDashed d4~
+    d c a2
+    g r4 c
+    e8 c g c c a d8. c16 %100
+    h!4 d4. c16 h c4~
+    c8 h16 c d8 c16 h a4. g16 a
+    g8 a h4 c4. c8
+    h g c4. h16 a h4
+    c c8 c c2 %105
+    c1\fermata \bar "|." %106 finis
+  }
+}
