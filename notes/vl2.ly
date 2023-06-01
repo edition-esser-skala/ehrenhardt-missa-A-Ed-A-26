@@ -341,3 +341,59 @@ SanctusViolinoII = {
     c4 r r2\fermata \bar "|."
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoBenedictus
+    r8 e'\fE e e e e
+    f[ cis, d f'] d8.\trill c32 d
+    e8[ h, c e'] c8.\trill h32 c
+    d8[ a, h d'] h8.\trill a32 h
+    c8 gis, a dis' dis dis %5
+    e,[ fis gis e'] gis8.\trill fis32 gis
+    a16 a, h a a'2~
+    a16 a, h a c4 h8.\trill a32 h
+    a8 e'\p e e e e
+    f[ cis, d f'] d8.\trill c32 d %10
+    e8[ h, c e'] c8.\trill h32 c
+    d8[ a, h d'] h8.\trill a32 h
+    c8 gis, a e''-\critnote e e
+    fis, fis fis fis fis fis
+    h,4-\critnote r r %15
+    R2.
+    r8 h''\f h h h h
+    c[ gis, a c'] a8.\trill g32 a
+    h8[ fis, g h'] g8.\trill fis32 g
+    a8[ e, fis a'] fis8.\trill e32 fis %20
+    g16 e fis e ais8 ais ais ais
+    h,16 h' g e g4 fis8.\trill e32 fis
+    e4 g,8\p f! e cis
+    a g a4 g8 g'
+    g f g e f g %25
+    c,4 r r
+    R2.*3
+    r8 g''\fE g g g g %30
+    a[ e, f a'] a8.\trill g32 a
+    h8[ fis,-\critnote g h'] h8.\trill a32 h
+    c8[ gis, a c'] c8.\trill h32 c
+    d16 f,! g! f f4 e8.\trill d32 e
+    d4 r r %35
+    r r a'8\pE g!
+    f cis, d f' g f
+    e h, c e' f e
+    d a, h d' e d
+    c gis, a h c d %40
+    c h a4 r
+    R2.
+    r8 e''\fE e e e e
+    f[ cis, d f'] d8.\trill c32 d
+    e8[ h, c e'] c8.\trill h32 c %45
+    d8[ a, h d'] h8.\trill a32 h
+    c8 gis, a dis' dis dis
+    e,[ fis gis e'] gis8.\trill fis32 gis
+    a16 a, h a a'2~
+    a16 a, h a c4 h8.\trill a32 h %50
+    a4-\critnote r r\fermata \markOsannaUtSupra \bar "||" %51 finis
+  }
+}

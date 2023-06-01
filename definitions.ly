@@ -10,6 +10,10 @@ markKyrieDaCapo = {
   \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \mark \markup \remark "Kyrie da capo"
 }
+markOsannaUtSupra = {
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Osanna ut supra"
+}
 
 
 tempoKyrie = \tempoMarkup "Allegro"
@@ -25,6 +29,7 @@ tempoCredo = \tempoMarkup "Andante"
 tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro"
   tempoOsanna = \tempoMarkup "Osanna · Allegro"
+tempoBenedictus = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

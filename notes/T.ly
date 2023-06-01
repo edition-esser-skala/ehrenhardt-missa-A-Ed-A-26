@@ -518,3 +518,74 @@ SanctusTenoreLyrics = \lyricmode {
   o -- san -- na in ex -- cel --
   sis. %35 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key a \minor \time 3/4 \autoBeamOff \tempoBenedictus
+    R2.*8 %8
+    r4 \mvTr a8([\pE^\solo h)] c4
+    d8([ e)] f([ d)] h4 %10
+    c8([ d)] e([ c)] a4
+    h8([ c)] d([ h)] gis4
+    a8[ h] c4. h16[ c]
+    h8[ cis] dis4. cis16[ dis]
+    e8[ h a h] g4~ %15
+    g8[ c16 a] fis4. fis8
+    e4 r r
+    R2.*5 %22
+    r4 e' e
+    f8([^\critnote cis)] d4 d8.([ c?32 d)]
+    e8([ h)] c4 b %25
+    a8([ h)] c([ a)] d16([ c h a)]
+    h8[ c d h] e16[ d c h]
+    c2.
+    f8 d h4. c8
+    c4 r r %30
+    R2.*3
+    r4 c c
+    c h8([ c)] d4 %35
+    d c8([ d)] e4
+    d8[( e)] f[( d]) \appoggiatura c h4
+    c8[ d e c] \appoggiatura h a4
+    h8[ c d h] \appoggiatura a gis4
+    a8[ h c d e f] %40
+    e2.
+    f8 d h4. h8
+    a2 r4
+    R2.*7 %50
+    R2.\fermata \markOsannaUtSupra \bar "||" %51 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %9
+  di -- ctus, qui %10
+  ve -- nit in
+  no -- mi -- ne
+  Do -- _ _
+  _ _ _
+  _ _ %15
+  _ mi --
+  ni.
+
+  Be -- ne -- %23
+  di -- ctus, qui __
+  ve -- nit, qui %25
+  ve -- nit in __
+  no -- _
+  _
+  mi -- ne Do -- mi --
+  ni. %30
+
+  Be -- ne -- %34
+  di -- ctus, qui %35
+  ve -- nit, qui
+  ve -- nit in
+  no -- _
+  _ _
+  _ %40
+  _
+  mi -- ne Do -- mi --
+  ni. %43 finis
+}
