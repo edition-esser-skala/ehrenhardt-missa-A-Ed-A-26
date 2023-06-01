@@ -402,3 +402,72 @@ BenedictusViolinoI = {
     a4-\critnote r r\fermata \markOsannaUtSupra \bar "||" %51 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/2 \tempoAgnus
+    r2 e'\fE e
+    e d4 c d2
+    e e e
+    e e e
+    e e e %5
+    e e e
+    f f f
+    e d1\trill
+    c2 e e
+    dis1 e2~ %10
+    e1 dis2
+    e e e
+    c c c
+    d d d
+    d d d %15
+    e e e
+    a a a
+    a a a
+    g g g
+    g g g %20
+    f f f
+    f f e
+    f c\pE c~
+    c h!4 a h2
+    c c c %25
+    c c c
+    h! h h
+    c d d
+    d c4 h c2 \noBreak
+    h1.\fermata \bar "||" %30
+    \key c \major \time 4/4 \tempoDona \newSpacingSection
+      c4\fE h c8 d e4 \noBreak
+    c8 c c h c g e c
+    c'\p c c h c g e c
+    c'4\fE c c h
+    c\p c c h %35
+    b8\f g fis g c h a4
+    g8 d h g d''4 d
+    d d e8 d c4
+    h8 d, h g e''\p d c4
+    h8 d, h g r4 h'8\f h %40
+    h4 a r h8\p^\critnote h
+    h4 a c8\f a gis a
+    d c h4 a8 e c a
+    e'' d c h a4 g
+    g8 a b4 a g %45
+    a8 b c4 d8 c b4
+    f'8 c a f d'\p c b4
+    f'8 c a f b4\f b
+    b a b\p b
+    b a as8\fE f e f %50
+    b a g4 f8 c a f''~
+    f f^\critnote f e d4 e
+    c4. c8 h d, h g
+    c'4 h c8 d e4
+    c4. h8 c g e c %55
+    c'4.\p h8 c g e c
+    c'4\f c c h
+    c\p c c h
+    es8\f c h c f e d4
+    c8 g e c e'4 d %60
+    c8 e d4 e r\fermata \bar "|." %61 finis
+  }
+}

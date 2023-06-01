@@ -529,3 +529,125 @@ SanctusBassoLyrics = \lyricmode {
   o -- san -- na in ex -- cel --
   sis. %35 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 3/2 \autoBeamOff \tempoAgnus
+    r2 \mvTr a'\fE^\tutti a
+    f1.
+    e1 e2
+    d1.
+    c1 a'2 %5
+    g!1.
+    f2 f d
+    c! g'1
+    c,2 c c
+    h1 e2~ %10
+    e h1
+    e2 c' c
+    a1.
+    g1 g2
+    f!1. %15
+    e
+    f2 f f
+    fis1.
+    g
+    e1 e2 %20
+    f!( a,1)
+    b2 c1
+    f,2 r r
+    R1.*6 \noBreak %29
+    R1.\fermata \bar "||" %30
+    \key c \major \time 4/4 \tempoDona \newSpacingSection
+      \mvDl c''4\fE^\tutti g e c \noBreak
+    f8 e d([ g)] c,4 r
+    f8\p e d([ g)] c,4 r
+    r a'8\f g fis([ d)] g4
+    r a8\p g fis([ d)] g4 %35
+    cis,8\f cis c h! a g d'4
+    g, r g' d
+    h g c8 h a([ d)]
+    g,4 r c8\p h a([ d)]
+    g,4 r r h'8\f a %40
+    gis([ e)] a4 r h8\p a
+    gis([ e)] a4 dis,8\f dis d c
+    h a e'4 a, r
+    r2 r4 g'8 f
+    e c d e f4 c %45
+    a f b8 a g([ c)]
+    f,4 r b8\p a g([ c)]
+    f,4 r r g'8\f f
+    e([ c)] f4 r g8\p f
+    e([ c)] f4 h,!8\f h b a! %50
+    g f c'4 f, r
+    r2 g'8 f e c
+    a' g fis([ d)] g4 r
+    c g e c
+    f8 e d([ g)] c,4 r %55
+    f8\p e d([ g)] c,4 r
+    r as'8\fE g fis([ d)] g4
+    r as8\p g fis([ d)] g4
+    fis8\f fis f e! d c g'([ g,)]
+    c4 r c' g %60
+    e8 c g'([ g,)] c4 r\fermata \bar "|." %61 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De --
+  i, qui
+  tol --
+  lis, qui %5
+  tol --
+  lis pec -- ca --
+  ta mun --
+  di: Mi -- se --
+  re -- re __ %10
+  no --
+  bis. A -- gnus
+  De --
+  i, qui
+  tol -- %15
+  lis
+  pec -- ca -- ta
+  mun --
+  di:
+  Mi -- se -- %20
+  re --
+  re no --
+  bis.
+
+  Do -- na no -- bis %31
+  pa -- cem, pa -- cem,
+  pa -- cem, pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa -- cem, %35
+  do -- na no -- bis pa -- cem, pa --
+  cem, do -- na
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, do -- na %40
+  no -- bis pa -- cem,
+  pa -- cem, do -- na no -- bis
+  pa -- cem, pa -- cem,
+  do -- na
+  no -- bis pa -- cem, do -- na %45
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, do -- na
+  no -- bis pa -- cem,
+  pa -- cem, do -- na no -- bis %50
+  pa -- cem, pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa -- cem, %55
+  pa -- cem, pa -- cem,
+  do -- na no -- bis
+  pa -- cem, pa -- cem,
+  do -- na no -- bis pa -- cem, pa --
+  cem, do -- na %60
+  no -- bis pa -- cem. %61 finis
+}

@@ -180,3 +180,52 @@ SanctusClarinoI = {
     e4 r r2\fermata \bar "|." %35 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoAgnus
+    R1.*11^\critnote %11
+    r2 g''\fE g~
+    g fis4 e fis2
+    g g g
+    g g g %15
+    g g g
+    a a a
+    a a a
+    g g g
+    g g g %20
+    f f f
+    f f e
+    f r r
+    R1.*6 \noBreak %29
+    R1.\fermata \bar "||" %30
+    \time 4/4 \tempoDona \newSpacingSection
+      g4\fE g g g \noBreak
+    a8 g f4 e r
+    R1*3 %35
+    r2 r8 g\fE g fis
+    g4 r r2
+    R1*2
+    r2 r4 f8\fE f %40
+    e4 e r2
+    R1
+    r8 e\fE e e e4 r
+    r2 r4 g8 g
+    g4 \pa f8 g \pd a4 g %45
+    f8 g a4 r2
+    R1
+    r2 r4 g8\fE g
+    g4 a r g8\pE g
+    g4 a \pa r e8\fE f %50
+    g^\critnote a g4 \pd a r
+    r2 g4 g
+    e4. a8 g4 r
+    g g g g
+    a8 g f4 e r %55
+    R1*3
+    r2 r8 g\fE g g
+    g4 r g g %60
+    g8 e d4 c r\fermata \bar "|." %61 finis
+  }
+}

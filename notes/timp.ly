@@ -152,3 +152,36 @@ SanctusTimpani = {
     c4 r r2\fermata \bar "|." %35 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \tempoAgnus
+    R1.*11 %11
+    r2 c\fE c
+    c c c
+    g1.
+    g %15
+    c2 c c
+    c c1
+    c c2
+    g1.
+    R1.*10 \noBreak %29
+    R1.\fermata \bar "||" %30
+    \time 4/4 \tempoDona \newSpacingSection
+      c4\fE g c c \noBreak
+    r r8 g c4 r
+    R1*11 %43
+    r2 r4 g8\fE g
+    c4 r r2 %45
+    R1*6 %51
+    r2 g4\fE c
+    r2 g4 r
+    c g c c
+    r r8 g c4 r %55
+    R1*3
+    r2 r8 c\fE g g
+    c4 r c g %60
+    c8. c16 g8. g16 c4 r\fermata \bar "|." %61 finis
+  }
+}

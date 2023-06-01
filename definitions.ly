@@ -30,6 +30,8 @@ tempoSanctus = \tempoMarkup "Adagio"
   tempoPleni = \tempoMarkup "Allegro"
   tempoOsanna = \tempoMarkup "Osanna · Allegro"
 tempoBenedictus = \tempoMarkup "Andante"
+tempoAgnus = \tempoMarkup "Andante"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"
