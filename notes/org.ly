@@ -646,3 +646,84 @@ CredoBassFigures = \figuremode {
   r4. <[6]>8 <9>4 <8> %105
   r1 %106 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c'8\pE-\solo c,16 d e8 c g'4 r8 d16 c
+    h4 c r8 f16 g a8 h
+    c c,16 d \mvTr e8\fE-\tutti c g'2~ \noBreak
+    g8 a fis4 g2\fermata \bar "||"
+    \clef treble \time 3/4 \tempoPleni c'4 e c \noBreak %5
+    \clef bass g, h g
+    c8 h a g f e
+    d4 c r
+    h! a r
+    d f d %10
+    e8 gis4 e d8
+    c a e'2
+    a,4 a' g!
+    f f f
+    g8 h4 g f8 %15
+    e2 f4 \noBreak
+    g g, r\fermata \bar "||"
+    \time 4/4 \tempoOsanna
+      \mvTr c8\pE-\solo c' h16 a g f e4 r8 e \noBreak
+    f g a16 g f e d4 r8 f
+    g a h16 a g f e8 \mvTr e\fE-\tutti fis g %20
+    r e fis g r e fis g
+    e h16 c d8 d, g4 r8 \mvTr h'16\pE-\solo a
+    g4 r8 g c, d e16 d c h
+    a4 r8 c d e fis16 e d c
+    h8 \mvTr h\fE-\tutti cis d r h cis d %25
+    r cis dis e a g16 a h8 h,
+    e4 \clef treble r8 e'' cis d! r d
+    h c \clef bass r e,,16 d c4 r8 e
+    f g a f d4 r8 f
+    g g, g'4 r8 d e f %30
+    r d e f r e fis g
+    e f g g, c4 r
+    r8 d\p e f r d e f
+    r e fis g e\fE f g g,
+    c4 r r2\fermata \bar "|." %35 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2 <4>8 <3>4.
+  <6 5>2. <6>8 <6 5>
+  <9> \bo <[8]> \bc <[6]>4 <6 4> <5 3>
+  <2> <6 5>2.
+  r2. %5
+  r
+  r2 \bo <[6]>8 \bc q
+  <6->4 <6>2
+  <6\\>2.
+  r2 <[5]>8 <6> %10
+  <_+>2.
+  <6>4 <4> <_+>
+  r2 <4\+ 2>4
+  <6>2.
+  r2 r8 <2> %15
+  <6>2 <6 5>4
+  <6 4> <5 3>2
+  r2 <6>
+  r2.. <6>8
+  r2 <[6]>4 <6 5> %20
+  r8 <6> <6 5>4. <6>8 \bo <[6 5]>4
+  \bc <[6 _]>8 <6> <4> <_+> r2
+  r2. <6>4
+  r4. <6>8 \bo <[_+ _]>2
+  <6>4 \bc <[6 5]>8 <_+>4 \bo <[6 _]>8 \bc <[6 5]> <_+> %25
+  r <6> <6 5 [_+]>4 <_!> \bo <[6] 4>8 \bc <[5\+] _+>
+  r2 <6 5>8 <[_!]>4.
+  <6 5>2.. <6>8
+  r2.. <6>8
+  r2 r8 <6-> <[6 5-]>4 %30
+  r8 <6-> <[6 5-]>4. <6>8 <6 5> <[_!]>
+  <6> <6 5> <4> <3> r2
+  r8 <6-> <[6 5-]>4. <6->8 <[6 5-]>4
+  r8 <6> <6 5> \bo <[_! _]> <6> \bc <[6 5]> <4> <3>
+  r1 %35 finis
+}

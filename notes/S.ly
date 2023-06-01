@@ -425,13 +425,81 @@ CredoSopranoLyrics = \lyricmode {
   men. %106 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*2
+    r4 \mvTr c'8\fE^\tutti e e8. e16 d4 \noBreak
+    c8 c c8. c16 h2\fermata \bar "||"
+    \time 3/4 \tempoPleni c4 e c \noBreak %5
+    g'2.
+    e2 d8([ c)]
+    b4 a e'
+    gis, a r
+    d8 f4 d h!8 %10
+    gis4. gis8 gis4
+    a8 a16 a a4( gis)
+    a8 c4 e cis8
+    d f4 d a8
+    h4. h8 h4 %15
+    c4. c8 c4 \noBreak
+    c h r\fermata \bar "||"
+    \time 4/4 \tempoOsanna r4 r8 \mvTr g\pE^\solo c([ d)] e c \noBreak
+    \appoggiatura h a4 a8 a d e f d
+    \appoggiatura c h4 h8 \mvTr h\fE^\tutti c4. h8 %20
+    c4. h8 e4 d
+    g8 g, g([ fis)] g4 r
+    R1*2
+    r8 \mvTr d'\fE^\tuttiE e d r d e d %25
+    r e fis e e c h4
+    h r8 h e d! r a
+    d c! r g c([ d)] e c
+    \appoggiatura h a4 a8 a d e f d
+    \appoggiatura c h4 h8 g b4. a8 %30
+    b4. a8 c4. h8
+    g' c, c([ h)] c4 r8 g\p
+    b4. a8 b4. a8
+    c4. h8 g'\fE c, c([ h)]
+    c4 r r2\fermata \bar "|." %35 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus Do -- mi -- nus %3
+  De -- us Sa -- ba -- oth.
+  Ple -- ni sunt %5
+  coe --
+  li et __
+  ter -- ra, et
+  ter -- ra
+  glo -- _ _ _ %10
+  _ ri -- a,
+  glo -- ri -- a tu --
+  a, glo -- _ _
+  _ _ _ _
+  _ ri -- a, %15
+  glo -- ri -- a
+  tu -- a.
+  O -- san -- na, o --
+  san -- na, o -- san -- na in ex --
+  cel -- sis, o -- san -- na %20
+  in ex -- cel -- sis,
+  in ex -- cel -- sis.
 
+  O -- san -- na, o -- san -- na, %25
+  o -- san -- na in ex -- cel --
+  sis, o -- san -- na, o --
+  san -- na, o -- san -- na, o --
+  san -- na, o -- san -- na in ex --
+  cel -- sis, o -- san -- na %30
+  in ex -- cel -- sis,
+  in ex -- cel -- sis, o --
+  san -- na in ex --
+  cel -- sis, in ex -- cel --
+  sis. %35 finis
+}
 
-% ## Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.

@@ -421,3 +421,78 @@ CredoAltoLyrics = \lyricmode {
   men, a -- men, a -- %105
   men. %106 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*2
+    r4 \mvTr g'8\fE^\tutti g g8. g16 g4 \noBreak
+    a8 a a8. a16 g2\fermata \bar "||"
+    \time 3/4 \tempoPleni R2. \noBreak %5
+    d4 g g
+    g a a8([ g)]
+    f4 e r
+    d e r
+    f4. f8 f4 %10
+    e2.
+    e8 e e2
+    e4 e e8 e
+    a4. a8 a4
+    g g g %15
+    g4. g8 a4 \noBreak
+    g g r\fermata \bar "||"
+    \time 4/4 \tempoOsanna R1*2
+    r2 r8 \mvTr g\fE^\tutti a g %20
+    r g a g r g a g
+    g d d4 d r8 \mvTr d\pE^\solo
+    g([ a)] h g \appoggiatura fis e4 e8 e
+    a h c a \appoggiatura g fis4 fis8 \mvTr fis\fE^\tuttiE
+    g4. fis8 g4. fis8 %25
+    a4. g8 c a^\critnote g([ fis)]
+    e4 r8 g g f r f
+    f e r4 r r8 g
+    f f f g a4 a8 a
+    g4 g r8 f g f %30
+    r f g f r g a g
+    g a g4 g r
+    r8 f\p g f r f g f
+    r g a g g\fE a g4
+    g r r2\fermata \bar "|." %35 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus Do -- mi -- nus %3
+  De -- us Sa -- ba -- oth.
+  %5
+  Ple -- ni sunt
+  coe -- li et __
+  ter -- ra,
+  ter -- ra
+  glo -- ri -- a, %10
+  glo --
+  ri -- a tu --
+  a, glo -- ri -- a,
+  glo -- ri -- a,
+  glo -- ri -- a, %15
+  glo -- ri -- a
+  tu -- a.
+
+  O -- san -- na, %20
+  o -- san -- na, o -- san -- na
+  in ex -- cel -- sis. O --
+  san -- na, o -- san -- na, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na in ex -- %25
+  cel -- sis, in ex -- cel --
+  sis, o -- san -- na, o --
+  san -- na, o --
+  san -- na in ex -- cel -- sis, o --
+  san -- na, o -- san -- na, %30
+  o -- san -- na, o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na, o -- san -- na,
+  o -- san -- na in ex -- cel --
+  sis. %35 finis
+}

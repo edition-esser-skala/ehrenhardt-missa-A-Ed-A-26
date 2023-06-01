@@ -453,3 +453,79 @@ CredoBassoLyrics = \lyricmode {
   men, a -- men, a -- %105
   men. %106 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr c'4.\pE^\solo h16[ c] d8[ f,]~
+    f16[ d e d] e8 g a c, f4
+    e \mvTr e8\fE^\tutti c g'8. g16 g4 \noBreak
+    g8 a fis8. fis16 \mvTrr g2\fermata^\critnote \bar "||"
+    \time 3/4 \tempoPleni R2. \noBreak %5
+    g4 h g
+    c8([ h)] a([ g)] f([ e)]
+    d4 c r
+    h! a r
+    d4. d8 d4 %10
+    e8 gis4 e d8
+    c h16 a e'2
+    a,4 a' g!8 g
+    f4. f8 f4
+    g8 h4 a g8 %15
+    e4. e8 f4 \noBreak
+    g g, r\fermata \bar "||"
+    \time 4/4 \tempoOsanna R1*2
+    r2 r8 \mvTr e'\fE^\tutti fis g %20
+    r e fis g r e fis g
+    e h16([ c)] d4 g, r
+    R1*2
+    r8 h cis d r h cis d %25
+    r \mvTr cis\fE^\tuttiE dis e a g16([ a)] h8([ h,)]
+    e4 r r2
+    r4 r8 e16([ d)] c8 c r e
+    f([ g)] a f d4 d8 f
+    g([ g,)] g'4 r8 d e f %30
+    r d e f r e fis g
+    e f g([ g,)] c4 r
+    r8 d\p e f r d e f
+    r e fis g e\f f g([ g,)]
+    c4 r r2\fermata \bar "|." %35 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- _ _
+  _ ctus, san -- ctus, san --
+  ctus, san -- ctus Do -- mi -- nus %3
+  De -- us Sa -- ba -- oth.
+  %5
+  Ple -- ni sunt
+  coe -- li __ et __
+  ter -- ra,
+  ter -- ra
+  glo -- ri -- a, %10
+  glo -- _ _ _
+  _ ri -- a tu --
+  a, glo -- ri -- a,
+  glo -- ri -- a,
+  glo -- _ _ _ %15
+  _ ri -- a
+  tu -- a.
+
+  O -- san -- na, %20
+  o -- san -- na, o -- san -- na
+  in ex -- cel -- sis.
+
+  O -- san -- na, o -- san -- na, %25
+  o -- san -- na in ex -- cel --
+  sis,
+  o -- san -- na, o --
+  san -- na, o -- san -- na, o --
+  san -- na, o -- san -- na, %30
+  o -- san -- na, o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na, o -- san -- na,
+  o -- san -- na in ex -- cel --
+  sis. %35 finis
+}

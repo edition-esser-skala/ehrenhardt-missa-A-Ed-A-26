@@ -304,3 +304,45 @@ CredoViolinoI = {
     c1\fermata \bar "|." %106 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    r8 e'16\pE f g8 e d g, r a'16 c
+    d8 h g4 r8 f16 e a8 g~
+    g16 f e d c8\fE e e8. e16 d8 f \noBreak
+    a a a8.\trillE g32 a g16 d h g g,4\fermata \bar "||"
+    \time 3/4 \tempoPleni c'4 e c \noBreak %5
+    g' g,8 h d g
+    e2 d8 c
+    b4 a e'
+    gis, a r
+    d8 f4 d h!8 %10
+    gis e'4 gis h8
+    a a, a4 gis
+    a8 c4 e cis8
+    d f4 d a8
+    h4 h h %15
+    c8 g'4 e8 a g \noBreak
+    \appoggiatura f e4 d r\fermata \bar "||"
+    \time 4/4 \tempoOsanna r2 r4 g16\pE f e d \noBreak
+    c4 r r a'16 g f e
+    d4 r8 d\fE c4. h8 %20
+    c4. h8 e4 d
+    g8 g, g fis g d16 c h4
+    r d'16\pE c h a g4 r
+    r e'16 d c h a4 r
+    r8 d\fE e d r d e d %25
+    r e fis e c e e dis
+    e h16 a g4 r8 f' cis d
+    r e h c4 d8 e c
+    \appoggiatura h8 a4 a8 a d e f16 e d c
+    \appoggiatura c8 h4 h8 g-\critnote b4. a8 %30
+    b4. a8 c4. h8
+    g' c, c h c g16 f e8 g\p
+    b4. a8 b4. a8
+    c4. h8 g'\f c, c h
+    c4 r r2\fermata \bar "|."
+  }
+}
